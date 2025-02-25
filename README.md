@@ -40,10 +40,10 @@ Skip TruffleHog
 # Output
 Results are saved in the specified output directory:
 
-all_urls.txt: All archived URLs.
-clean_urls.txt: Deduplicated URLs.
-filtered_urls.txt: Sensitive files/keywords.
-secrets_urls.txt, sqli_urls.txt, xss_urls.txt, idor.txt: Vulnerability-specific URLs.
-live_urls.txt: Live endpoints (HTTP 200).
-secrets_found.txt: TruffleHog findings (if enabled).
-final_report.txt: Combined unique results.
+- all_urls.txt: All archived URLs.
+- clean_urls.txt: Deduplicated URLs.
+- filtered_urls.txt: Sensitive files/keywords.
+- secrets_urls.txt, sqli_urls.txt, xss_urls.txt, idor.txt: Vulnerability-specific URLs.
+- live_urls.txt: Live endpoints (HTTP 200).
+- secrets_found.txt: TruffleHog findings (if enabled).
+- final_report.txt: Combined unique results.
