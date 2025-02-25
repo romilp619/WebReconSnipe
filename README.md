@@ -29,13 +29,13 @@
 # Commands
 
 Single Domain
-./webreconsnipe -d https://www.tataplay.com -o my_output
+-./webreconsnipe -d https://www.tataplay.com -o my_output
 
 Multiple Domains from File
-./webreconsnipe -f domains.txt -o my_output
+-./webreconsnipe -f domains.txt -o my_output
 
 Skip TruffleHog
-./webreconsnipe -d https://www.tataplay.com --skip-trufflehog
+-./webreconsnipe -d https://www.tataplay.com --skip-trufflehog
 
 # Output
 Results are saved in the specified output directory:
